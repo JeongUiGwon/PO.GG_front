@@ -1,0 +1,39 @@
+.header {
+  background-color: #907659;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  padding: 1px 0;
+  width: 1080px;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.navlink {
+  font-size: 16px;
+  color: #d7a96f;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+.navlink:hover {
+  color: #ffffff;
+  box-shadow: inset 0 -4px 0 0 #ffffff;
+}
+
+.navlinkActive {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 15px 0;
+  box-shadow: inset 0 -4px 0 0 #ffffff;
+}
