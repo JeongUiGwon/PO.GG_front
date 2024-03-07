@@ -4,16 +4,14 @@ import SearchBar from './SearchBar';
 
 export default function HomeSearch() {
   return (
-    <main className={styles.main}>
-      <div className={styles.searchContainer}>
-        <Image
-          src="/logo-home-set-10.jpg"
-          alt="TFT.PO.GG"
-          width={400}
-          height={320}
-        />
-        <SearchBar />
-      </div>
-    </main>
+    <div className={styles.searchContainer}>
+      <Image
+        src="/logo-home-set-10.jpg"
+        alt="TFT.PO.GG"
+        width={400}
+        height={320}
+      />
+      <SearchBar />
+    </div>
   );
 }

@@ -4,6 +4,9 @@
   width: 800px;
   background-color: #31313c;
   gap: 16px;
+  display: flex;
+  color: #7b7a8e;
+  justify-content: space-between;
 }
 
 .searchLocation {
@@ -13,4 +16,49 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+}
+
+.searchLocation label {
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.searchLocation select {
+  background-color: transparent;
+}
+
+.searchInput {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 443px;
+  height: 40px;
+}
+
+.searchInput label {
+  font-weight: bold;
+  font-size: 12px;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.searchInput input {
+  border: none;
+  background-color: transparent;
+  height: 20px;
+}
+
+.searchInput input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.searchForm button {
+  width: 90px;
+  background-image: url('/gg-button.svg');
+  background-repeat: no-repeat;
+  font-size: 0;
+  background-position: center;
 }

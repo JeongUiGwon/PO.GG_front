@@ -10,7 +10,7 @@ export default function SearchBar() {
     <>
       <form className={styles.searchForm}>
         <div className={styles.searchLocation}>
-          <label className="text-white select-none mb-1">지역</label>
+          <label>지역</label>
           <select>
             {options.map((option: SelectItem) => (
               <option key={option.value} value={option.value}>
@@ -19,6 +19,11 @@ export default function SearchBar() {
             ))}
           </select>
         </div>
+        <div className={styles.searchInput}>
+          <label>검색</label>
+          <input placeholder="플레이어 이름 + #KR1" />
+        </div>
+        <button type="submit">검색</button>
       </form>
     </>
   );

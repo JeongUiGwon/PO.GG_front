@@ -1,11 +1,11 @@
 import Header from '@/components/common/Header';
-import HomeSearch from '@/components/home/HomeSearch';
+import HomeTemplate from '@/components/home/HomeTemplate';
 
 export default function Home() {
   return (
     <>
       <Header />
-      <HomeSearch />
+      <HomeTemplate />
     </>
   );
 }
