@@ -1,4 +1,6 @@
 .box {
+  width: 100%;
+  border-radius: 4px;
   background-color: #31313c;
 }
 
@@ -11,4 +13,42 @@
 .box-header h2 {
   padding: 12px;
   font-weight: bold;
+}
+
+.box-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 0;
+}
+
+.box-content-item {
+  align-items: center;
+  padding: 0 24px 12px;
+  display: flex;
+  gap: 16px;
+  border-bottom: 1px solid #1c1c1f;
+}
+
+.box-info {
+  display: flex;
+  flex-direction: column;
+  height: 133px;
+}
+
+.box-info .title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.box-info .description {
+  margin-top: 4px;
+  color: #7b7a8e;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
 }

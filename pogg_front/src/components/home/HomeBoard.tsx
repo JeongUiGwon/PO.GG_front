@@ -5,6 +5,7 @@ export default function HomeBoard() {
   return (
     <div className={styles.HomeBoard}>
       <SeasonInfo />
+      <SeasonInfo />
     </div>
   );
 }
