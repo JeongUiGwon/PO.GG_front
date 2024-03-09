@@ -52,3 +52,39 @@
   font-style: normal;
   font-weight: 400;
 }
+
+.box-info .champions {
+  margin-top: 8px;
+  display: flex;
+  gap: 4px;
+}
+
+.box-info .champions .cover {
+  left: 2px;
+  right: 2px;
+  width: 28px;
+  height: 32px;
+  clip-path: polygon(
+    0px 27%,
+    50% 0px,
+    100% 27%,
+    100% 73%,
+    50% 100%,
+    0px 73%,
+    0px 27%
+  );
+}
+
+.box-info .champions .cover div {
+  width: 28px;
+  height: 32px;
+  clip-path: polygon(
+    0px 27%,
+    50% 0px,
+    100% 27%,
+    100% 73%,
+    50% 100%,
+    0px 73%,
+    0px 27%
+  );
+}
