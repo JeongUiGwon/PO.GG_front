@@ -1,0 +1,24 @@
+.footer {
+  width: 1080px;
+  margin: 92px auto 68px;
+}
+
+.copyright-box {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #424254;
+  display: flex;
+  gap: 16px;
+  align-items: end;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 16px;
+  color: #7b7a8e;
+}
+
+.sns {
+  display: flex;
+  gap: 12px;
+}
